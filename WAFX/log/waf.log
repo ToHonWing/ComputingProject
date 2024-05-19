@@ -1,0 +1,35 @@
+2024-05-19 15:57:49,680 - MyWAF - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-19 16:00:09,434 - MyWAF - INFO - WAFX is active
+2024-05-19 16:00:09,434 - MyWAF - INFO - WAFX is active
+2024-05-19 16:00:09,448 - MyWAF - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-19 16:00:09,448 - MyWAF - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-19 16:00:33,021 - MyWAF - INFO - WAFX is active
+2024-05-19 16:00:33,021 - MyWAF - INFO - WAFX is active
+2024-05-19 16:00:33,022 - MyWAF - INFO - injection detected: 1; DROP TABLE users
+2024-05-19 16:00:33,022 - MyWAF - INFO - injection detected: 1; DROP TABLE users
+2024-05-19 16:01:29,982 - MyWAF - INFO - injection detected: 1; DROP TABLE users
+2024-05-19 16:01:29,982 - MyWAF - INFO - injection detected: 1; DROP TABLE users
+2024-05-19 16:05:39,552 - MyWAF - INFO - WAFX is active
+2024-05-19 16:05:39,552 - MyWAF - INFO - WAFX is active
+2024-05-19 16:05:39,553 - MyWAF - INFO - injection detected from: 192.168.61.1 to https://192.168.61.129/customer input: 1; DROP TABLE users
+2024-05-19 16:05:39,553 - MyWAF - INFO - injection detected from: 192.168.61.1 to https://192.168.61.129/customer input: 1; DROP TABLE users
+2024-05-19 16:17:42,599 - MyWAF - INFO - WAFX is active
+2024-05-19 16:17:42,599 - MyWAF - INFO - WAFX is active
+2024-05-19 16:17:42,599 - MyWAF - INFO - WAFX is active
+2024-05-19 16:17:42,600 - MyWAF - INFO - injection detected from: 192.168.61.1 to https://192.168.61.129/customer input: 1; DROP TABLE users
+2024-05-19 16:17:42,600 - MyWAF - INFO - injection detected from: 192.168.61.1 to https://192.168.61.129/customer input: 1; DROP TABLE users
+2024-05-19 16:17:42,600 - MyWAF - INFO - injection detected from: 192.168.61.1 to https://192.168.61.129/customer input: 1; DROP TABLE users
+2024-05-19 16:26:46,971 - WAFX - INFO - WAFX is active
+2024-05-19 16:26:46,972 - WAFX - INFO - injection detected from: 192.168.61.1 to https://192.168.61.129/customer input: 1; DROP TABLE users
+2024-05-19 16:28:02,540 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-19 16:32:47,284 - WAFX - INFO - Http method: GET, url: http://localhost:5000/sales from: 192.168.61.1
+2024-05-19 16:35:12,109 - WAFX - INFO - Http method: GET, url: http://localhost:5000/sales from: 192.168.61.1
+2024-05-19 16:35:58,612 - WAFX - INFO - WAFX is active
+2024-05-19 16:36:49,638 - WAFX - INFO - Http method: GET, url: http://localhost:5000/sales from: 192.168.61.1
+2024-05-19 16:46:19,886 - WAFX - INFO - WAFX is active
+2024-05-19 16:46:19,887 - WAFX - INFO - XSS detected from: 192.168.61.1 to https://192.168.61.129/sales input: <script>alert('XSS');</script>
+2024-05-19 16:54:04,755 - WAFX - INFO - Http method: GET, url: http://localhost:5000/invoice from: 192.168.61.1
+2024-05-19 16:56:20,029 - WAFX - INFO - Http method: GET, url: http://localhost:5000/invoice from: 192.168.61.1
+2024-05-19 17:36:31,148 - WAFX - INFO - WAFX is active
+2024-05-19 17:38:03,534 - WAFX - INFO - WAFX is active
+2024-05-19 17:38:03,535 - WAFX - INFO - Command injection detected from: 192.168.61.1 to https://192.168.61.129/invoice input: ls -a; cat /opt/invoice.txt
