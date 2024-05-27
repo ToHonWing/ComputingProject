@@ -1,20 +1,9 @@
-2024-05-20 21:47:39,697 - WAFX - INFO - WAFX is active
-2024-05-20 21:52:12,609 - WAFX - INFO - WAFX is active
-2024-05-20 21:52:21,369 - WAFX - INFO - Http method: POST, url: http://localhost:5000/customer from: 192.168.61.1
-2024-05-20 21:57:07,124 - WAFX - INFO - WAFX is active
-2024-05-20 21:57:07,125 - WAFX - INFO - HTTP GET block from: 192.168.61.1 to https://192.168.61.129/
-2024-05-20 21:58:26,835 - WAFX - INFO - WAFX is active
-2024-05-20 21:58:26,838 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
-2024-05-20 21:59:03,925 - WAFX - INFO - WAFX is active
-2024-05-20 21:59:03,928 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
-2024-05-20 21:59:43,982 - WAFX - INFO - WAFX is active
-2024-05-20 22:05:47,435 - WAFX - INFO - WAFX is active
-2024-05-20 22:06:51,990 - WAFX - INFO - WAFX is active
-2024-05-20 22:09:44,802 - WAFX - INFO - WAFX is active
-2024-05-20 22:09:49,427 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
-2024-05-20 22:09:53,590 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
-2024-05-20 22:11:29,042 - WAFX - INFO - WAFX is active
-2024-05-20 22:11:29,045 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
-2024-05-20 22:11:31,782 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
-2024-05-20 22:12:36,563 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
-2024-05-20 22:12:39,504 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 18:24:14,229 - WAFX - INFO - WAFX is active
+2024-05-26 18:24:18,620 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 18:25:47,567 - WAFX - INFO - WAFX is active
+2024-05-26 18:27:05,220 - WAFX - INFO - WAFX is active
+2024-05-26 18:27:05,225 - WAFX - INFO - Http method: POST, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 18:27:56,546 - WAFX - INFO - WAFX is active
+2024-05-26 18:27:56,550 - WAFX - INFO - Http method: POST, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 18:28:00,397 - WAFX - INFO - HTTP GET block from: 192.168.61.1 to https://192.168.61.129/
+2024-05-26 18:28:05,392 - WAFX - INFO - Http method: POST, url: http://localhost:5000/ from: 192.168.61.1

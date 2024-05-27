@@ -1,112 +1,104 @@
-2024-05-19 15:57:49,680 - MyWAF - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
-2024-05-19 16:00:09,434 - MyWAF - INFO - WAFX is active
-2024-05-19 16:00:09,434 - MyWAF - INFO - WAFX is active
-2024-05-19 16:00:09,448 - MyWAF - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
-2024-05-19 16:00:09,448 - MyWAF - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
-2024-05-19 16:00:33,021 - MyWAF - INFO - WAFX is active
-2024-05-19 16:00:33,021 - MyWAF - INFO - WAFX is active
-2024-05-19 16:00:33,022 - MyWAF - INFO - injection detected: 1; DROP TABLE users
-2024-05-19 16:00:33,022 - MyWAF - INFO - injection detected: 1; DROP TABLE users
-2024-05-19 16:01:29,982 - MyWAF - INFO - injection detected: 1; DROP TABLE users
-2024-05-19 16:01:29,982 - MyWAF - INFO - injection detected: 1; DROP TABLE users
-2024-05-19 16:05:39,552 - MyWAF - INFO - WAFX is active
-2024-05-19 16:05:39,552 - MyWAF - INFO - WAFX is active
-2024-05-19 16:05:39,553 - MyWAF - INFO - injection detected from: 192.168.61.1 to https://192.168.61.129/customer input: 1; DROP TABLE users
-2024-05-19 16:05:39,553 - MyWAF - INFO - injection detected from: 192.168.61.1 to https://192.168.61.129/customer input: 1; DROP TABLE users
-2024-05-19 16:17:42,599 - MyWAF - INFO - WAFX is active
-2024-05-19 16:17:42,599 - MyWAF - INFO - WAFX is active
-2024-05-19 16:17:42,599 - MyWAF - INFO - WAFX is active
-2024-05-19 16:17:42,600 - MyWAF - INFO - injection detected from: 192.168.61.1 to https://192.168.61.129/customer input: 1; DROP TABLE users
-2024-05-19 16:17:42,600 - MyWAF - INFO - injection detected from: 192.168.61.1 to https://192.168.61.129/customer input: 1; DROP TABLE users
-2024-05-19 16:17:42,600 - MyWAF - INFO - injection detected from: 192.168.61.1 to https://192.168.61.129/customer input: 1; DROP TABLE users
-2024-05-19 16:26:46,971 - WAFX - INFO - WAFX is active
-2024-05-19 16:26:46,972 - WAFX - INFO - injection detected from: 192.168.61.1 to https://192.168.61.129/customer input: 1; DROP TABLE users
-2024-05-19 16:28:02,540 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
-2024-05-19 16:32:47,284 - WAFX - INFO - Http method: GET, url: http://localhost:5000/sales from: 192.168.61.1
-2024-05-19 16:35:12,109 - WAFX - INFO - Http method: GET, url: http://localhost:5000/sales from: 192.168.61.1
-2024-05-19 16:35:58,612 - WAFX - INFO - WAFX is active
-2024-05-19 16:36:49,638 - WAFX - INFO - Http method: GET, url: http://localhost:5000/sales from: 192.168.61.1
-2024-05-19 16:46:19,886 - WAFX - INFO - WAFX is active
-2024-05-19 16:46:19,887 - WAFX - INFO - XSS detected from: 192.168.61.1 to https://192.168.61.129/sales input: <script>alert('XSS');</script>
-2024-05-19 16:54:04,755 - WAFX - INFO - Http method: GET, url: http://localhost:5000/invoice from: 192.168.61.1
-2024-05-19 16:56:20,029 - WAFX - INFO - Http method: GET, url: http://localhost:5000/invoice from: 192.168.61.1
-2024-05-19 17:36:31,148 - WAFX - INFO - WAFX is active
-2024-05-19 17:38:03,534 - WAFX - INFO - WAFX is active
-2024-05-19 17:38:03,535 - WAFX - INFO - Command injection detected from: 192.168.61.1 to https://192.168.61.129/invoice input: ls -a; cat /opt/invoice.txt
-2024-05-19 17:56:36,747 - WAFX - INFO - WAFX is active
-2024-05-19 17:56:36,764 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
-2024-05-20 17:48:04,570 - WAFX - INFO - WAFX is active
-2024-05-20 17:48:04,575 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
-2024-05-20 17:49:44,416 - WAFX - INFO - WAFX is active
-2024-05-20 17:49:44,417 - WAFX - INFO - Command injection detected from: 192.168.61.1 to https://192.168.61.129/fetch input: http://localhost:6000/
-2024-05-20 17:52:00,882 - WAFX - INFO - WAFX is active
-2024-05-20 17:52:00,882 - WAFX - INFO - Command injection detected from: 192.168.61.1 to https://192.168.61.129/fetch input: http://localhost:6000/
-2024-05-20 17:59:21,072 - WAFX - INFO - WAFX is active
-2024-05-20 17:59:21,075 - WAFX - INFO - Http method: GET, url: http://localhost:5000/fetch from: 192.168.61.1
-2024-05-20 18:00:14,916 - WAFX - INFO - Http method: GET, url: http://localhost:5000/fetch from: 192.168.61.1
-2024-05-20 18:00:55,124 - WAFX - INFO - WAFX is active
-2024-05-20 18:00:55,125 - WAFX - INFO - Command injection detected from: 192.168.61.1 to https://192.168.61.129/fetch input: http://localhost:6000/
-2024-05-20 18:16:52,532 - WAFX - INFO - WAFX is active
-2024-05-20 18:16:52,533 - WAFX - INFO - Command injection detected from: 192.168.61.1 to https://192.168.61.129/fetch input: http://localhost:6000/
-2024-05-20 18:18:13,995 - WAFX - INFO - WAFX is active
-2024-05-20 18:18:13,995 - WAFX - INFO - Command injection detected from: 192.168.61.1 to https://192.168.61.129/fetch input: http://localhost:6000/
-2024-05-20 18:19:10,249 - WAFX - INFO - WAFX is active
-2024-05-20 18:19:10,250 - WAFX - INFO - Command injection detected from: 192.168.61.1 to https://192.168.61.129/fetch input: http://localhost:6000/
-2024-05-20 18:23:57,384 - WAFX - INFO - WAFX is active
-2024-05-20 18:24:10,971 - WAFX - INFO - WAFX is active
-2024-05-20 18:24:25,678 - WAFX - INFO - Command injection detected from: 192.168.61.1 to http://192.168.61.129:5002/fetch input: http://localhost:6000/
-2024-05-20 18:30:55,439 - WAFX - INFO - WAFX is active
-2024-05-20 18:31:00,920 - WAFX - INFO - Http method: GET, url: http://localhost:5000/fetch from: 192.168.61.1
-2024-05-20 18:34:17,523 - WAFX - INFO - WAFX is active
-2024-05-20 18:35:03,131 - WAFX - INFO - WAFX is active
-2024-05-20 18:35:05,418 - WAFX - INFO - SSRF detected: http://localhost:6000/
-2024-05-20 18:52:38,900 - WAFX - INFO - WAFX is active
-2024-05-20 18:52:43,522 - WAFX - INFO - SSRF detected from: 192.168.61.1 to http://192.168.61.129:5002/fetch input: http://localhost:6000/
-2024-05-20 18:52:52,673 - WAFX - INFO - Http method: GET, url: http://localhost:5000/fetch from: 192.168.61.1
-2024-05-20 20:37:54,992 - WAFX - INFO - WAFX is active
-2024-05-20 20:38:01,231 - WAFX - INFO - IP blocked from: 192.168.61.1 to http://192.168.61.129:5002/fetch
-2024-05-20 20:39:33,487 - WAFX - INFO - WAFX is active
-2024-05-20 20:39:33,487 - WAFX - INFO - IP blocked from: 192.168.61.1 to https://192.168.61.129/fetch
-2024-05-20 20:40:09,130 - WAFX - INFO - WAFX is active
-2024-05-20 20:40:09,261 - WAFX - INFO - Http method: GET, url: http://localhost:5000/fetch from: 192.168.61.1
-2024-05-20 20:40:37,704 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
-2024-05-20 20:50:15,236 - WAFX - INFO - WAFX is active
-2024-05-20 20:51:57,335 - WAFX - INFO - WAFX is active
-2024-05-20 20:51:57,338 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
-2024-05-20 20:52:59,208 - WAFX - INFO - WAFX is active
-2024-05-20 20:55:07,714 - WAFX - INFO - WAFX is active
-2024-05-20 20:57:23,825 - WAFX - INFO - WAFX is active
-2024-05-20 20:57:23,825 - WAFX - INFO - HTTP GET block from: 192.168.61.1 to https://192.168.61.129/
-2024-05-20 20:57:27,250 - WAFX - INFO - HTTP PUT block from: 192.168.61.1 to https://192.168.61.129/
-2024-05-20 20:57:29,967 - WAFX - INFO - HTTP GET block from: 192.168.61.1 to https://192.168.61.129/
-2024-05-20 20:59:34,815 - WAFX - INFO - WAFX is active
-2024-05-20 20:59:40,821 - WAFX - INFO - WAFX is active
-2024-05-20 20:59:40,824 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
-2024-05-20 21:00:17,911 - WAFX - INFO - WAFX is active
-2024-05-20 21:00:17,914 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
-2024-05-20 21:00:26,715 - WAFX - INFO - Http method: GET, url: http://localhost:5000/user/Bob from: 192.168.61.1
-2024-05-20 21:00:30,597 - WAFX - INFO - Http method: GET, url: http://localhost:5000/users/Bob from: 192.168.61.1
-2024-05-20 21:00:38,216 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer/Bob from: 192.168.61.1
-2024-05-20 21:01:47,119 - WAFX - INFO - SSRF detected from: 192.168.61.1 to https://192.168.61.129/customer input: 1
-2024-05-20 21:05:57,626 - WAFX - INFO - WAFX is active
-2024-05-20 21:06:13,729 - WAFX - INFO - WAFX is active
-2024-05-20 21:06:23,882 - WAFX - INFO - SSRF detected from: 192.168.61.1 to http://192.168.61.129:5002/customer input: 1
-2024-05-20 21:07:15,955 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
-2024-05-20 21:09:20,820 - WAFX - INFO - WAFX is active
-2024-05-20 21:09:23,082 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
-2024-05-20 21:10:52,430 - WAFX - INFO - WAFX is active
-2024-05-20 21:11:05,195 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
-2024-05-20 21:11:32,541 - WAFX - INFO - SSRF detected from: 192.168.61.1 to http://192.168.61.129:5002/customer input: 1
-2024-05-20 21:12:02,498 - WAFX - INFO - WAFX is active
-2024-05-20 21:12:06,200 - WAFX - INFO - SSRF detected from: 192.168.61.1 to http://192.168.61.129:5002/customer input: 1
-2024-05-20 21:16:45,099 - WAFX - INFO - WAFX is active
-2024-05-20 21:16:49,654 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
-2024-05-20 21:17:14,056 - WAFX - INFO - Http method: POST, url: http://localhost:5000/customer from: 192.168.61.1
-2024-05-20 21:19:10,577 - WAFX - INFO - Http method: POST, url: http://localhost:5000/customer from: 192.168.61.1
-2024-05-20 21:19:40,324 - WAFX - INFO - WAFX is active
-2024-05-20 21:19:47,024 - WAFX - INFO - HTTP GET block from: 192.168.61.1 to http://192.168.61.129:5002/
-2024-05-20 21:21:18,106 - WAFX - INFO - WAFX is active
-2024-05-20 21:21:18,107 - WAFX - INFO - HTTP GET block from: 192.168.61.1 to https://192.168.61.129/
-2024-05-20 21:21:32,742 - WAFX - INFO - WAFX is active
-2024-05-20 21:21:32,745 - WAFX - INFO - Http method: POST, url: http://localhost:5000/customer from: 192.168.61.1
-2024-05-20 21:47:13,832 - WAFX - INFO - WAFX is active
+2024-05-20 21:47:39,697 - WAFX - INFO - WAFX is active
+2024-05-20 21:52:12,609 - WAFX - INFO - WAFX is active
+2024-05-20 21:52:21,369 - WAFX - INFO - Http method: POST, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-20 21:57:07,124 - WAFX - INFO - WAFX is active
+2024-05-20 21:57:07,125 - WAFX - INFO - HTTP GET block from: 192.168.61.1 to https://192.168.61.129/
+2024-05-20 21:58:26,835 - WAFX - INFO - WAFX is active
+2024-05-20 21:58:26,838 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-20 21:59:03,925 - WAFX - INFO - WAFX is active
+2024-05-20 21:59:03,928 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-20 21:59:43,982 - WAFX - INFO - WAFX is active
+2024-05-20 22:05:47,435 - WAFX - INFO - WAFX is active
+2024-05-20 22:06:51,990 - WAFX - INFO - WAFX is active
+2024-05-20 22:09:44,802 - WAFX - INFO - WAFX is active
+2024-05-20 22:09:49,427 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-20 22:09:53,590 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-20 22:11:29,042 - WAFX - INFO - WAFX is active
+2024-05-20 22:11:29,045 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-20 22:11:31,782 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-20 22:12:36,563 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-20 22:12:39,504 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 09:52:27,019 - WAFX - INFO - WAFX is active
+2024-05-26 09:53:42,372 - WAFX - INFO - WAFX is active
+2024-05-26 09:53:42,379 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 09:55:12,221 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-26 09:55:19,164 - WAFX - INFO - WAFX is active
+2024-05-26 09:55:19,167 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-26 10:14:00,684 - WAFX - INFO - WAFX is active
+2024-05-26 10:14:00,685 - WAFX - INFO - SQL injection detected from: 192.168.61.1 to https://192.168.61.129/customer input: 2 OR 1=1
+2024-05-26 10:57:53,198 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 11:30:29,637 - WAFX - INFO - WAFX is active
+2024-05-26 11:32:41,896 - WAFX - INFO - WAFX is active
+2024-05-26 11:32:41,899 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 11:33:01,156 - WAFX - INFO - SQL injection detected from: 192.168.61.1 to https://192.168.61.129/commend input: <script>alert('XSS');</script>
+2024-05-26 11:34:49,892 - WAFX - INFO - WAFX is active
+2024-05-26 11:34:49,894 - WAFX - INFO - XSS detected from: 192.168.61.1 to https://192.168.61.129/commend input: <script>alert('XSS');</script>
+2024-05-26 12:24:19,389 - WAFX - INFO - WAFX is active
+2024-05-26 12:24:19,390 - WAFX - INFO - Command injection detected from: 192.168.61.1 to https://192.168.61.129/invoice input: ls
+2024-05-26 13:50:23,723 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 14:04:27,944 - WAFX - INFO - WAFX is active
+2024-05-26 14:04:27,949 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-26 14:07:25,897 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-26 14:10:50,842 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-26 14:11:00,743 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-26 14:13:06,171 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-26 14:28:59,089 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-26 14:29:02,908 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-26 14:29:30,465 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-26 14:29:56,376 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-26 14:29:59,184 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-26 14:39:30,834 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-26 14:48:38,930 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 14:48:56,390 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 14:52:27,406 - WAFX - INFO - Http method: GET, url: http://localhost:5000/customer from: 192.168.61.1
+2024-05-26 14:56:49,838 - WAFX - INFO - Http method: GET, url: http://localhost:5000/comment from: 192.168.61.1
+2024-05-26 15:04:47,075 - WAFX - INFO - Http method: GET, url: http://localhost:5000/invoice from: 192.168.61.1
+2024-05-26 15:08:29,417 - WAFX - INFO - Http method: GET, url: http://localhost:5000/invoice from: 192.168.61.1
+2024-05-26 15:09:10,744 - WAFX - INFO - Http method: GET, url: http://localhost:5000/invoice from: 192.168.61.1
+2024-05-26 15:11:16,439 - WAFX - INFO - Http method: GET, url: http://localhost:5000/invoice from: 192.168.61.1
+2024-05-26 15:11:53,729 - WAFX - INFO - Command injection detected from: 192.168.61.1 to https://192.168.61.129/invoice input: 123456.txt; ls
+2024-05-26 16:14:15,400 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 16:16:21,581 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 16:23:46,471 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:23:48,258 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:23:49,326 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:23:50,663 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:23:51,697 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:23:53,103 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:23:54,167 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:23:55,433 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:23:56,879 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:23:58,197 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:23:59,508 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:24:01,044 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:24:02,856 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:24:04,320 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:24:06,160 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:24:07,308 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:24:09,003 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:24:10,084 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:24:11,318 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:24:12,997 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.129
+2024-05-26 16:48:52,426 - WAFX - INFO - WAFX is active
+2024-05-26 16:48:52,432 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 17:12:37,222 - WAFX - INFO - WAFX is active
+2024-05-26 17:12:37,229 - WAFX - INFO - Http method: GET, url: http://localhost:5000/fetch from: 192.168.61.1
+2024-05-26 17:12:46,721 - WAFX - INFO - WAFX is active
+2024-05-26 17:12:46,724 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 17:15:25,118 - WAFX - INFO - WAFX is active
+2024-05-26 17:15:25,120 - WAFX - INFO - SSRF detected from: 192.168.61.1 to https://192.168.61.129/fetch input: http://127.0.0.1:6000/
+2024-05-26 17:15:37,466 - WAFX - INFO - WAFX is active
+2024-05-26 17:15:37,470 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 17:31:54,774 - WAFX - INFO - SQL injection detected from: 192.168.61.1 to https://192.168.61.129/customer input: 1 OR 1=1
+2024-05-26 17:39:52,667 - WAFX - INFO - XSS detected from: 192.168.61.1 to https://192.168.61.129/comment input: <script>alert('XSS');</script>
+2024-05-26 17:46:29,344 - WAFX - INFO - Command injection detected from: 192.168.61.1 to https://192.168.61.129/invoice input: 123456.txt; ls
+2024-05-26 17:52:44,965 - WAFX - INFO - SSRF detected from: 192.168.61.1 to https://192.168.61.129/fetch input: http://127.0.0.1:6000/
+2024-05-26 17:57:06,139 - WAFX - INFO - WAFX is active
+2024-05-26 17:57:06,145 - WAFX - INFO - Http method: GET, url: http://localhost:5000/ from: 192.168.61.1
+2024-05-26 17:57:59,829 - WAFX - INFO - WAFX is active
+2024-05-26 17:57:59,830 - WAFX - INFO - IP blocked from: 192.168.61.1 to https://192.168.61.129/
+2024-05-26 18:04:40,951 - WAFX - INFO - WAFX is active
+2024-05-26 18:04:40,953 - WAFX - INFO - HTTP GET block from: 192.168.61.1 to https://192.168.61.129/
+2024-05-26 18:05:42,913 - WAFX - INFO - WAFX is active
+2024-05-26 18:06:21,853 - WAFX - INFO - WAFX is active
+2024-05-26 18:07:41,237 - WAFX - INFO - WAFX is active

@@ -54,7 +54,7 @@ def blockMethod():
     return httpMethod.method_filter()
 
 # Proxy logic to forward requests to the web server and get the response
-@app.route('/', defaults={'path': ''})
+@app.route('/', defaults={'path': ''}, methods=['GET', 'POST', 'PUT', 'DELETE', 'PATCH'])
 @app.route('/<path:path>', methods=['GET', 'POST', 'PUT', 'DELETE', 'PATCH'])
 def proxyhandler(path):
     return proxyObj.proxy(path)

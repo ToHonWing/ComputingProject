@@ -42,4 +42,5 @@ class RateLimiter:
     def before_request(self):
         client_ip = request.remote_addr
         if not self.rate_limit(client_ip):
+            self.requestLogger.info(f'Rate limit detected from: {request.remote_addr} to {request.base_url}')
             return jsonify({"error": "rate limit exceeded"}), 429

@@ -1,6 +1,4 @@
-from flask import Flask, request, Response, abort
-from urllib.parse import urlparse
-from proxyHandler  import proxyHandler
+from flask import request, abort
 from logger import loggerConfig
 from configLoader import configLoader
 

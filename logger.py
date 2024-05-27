@@ -5,7 +5,7 @@ class loggerConfig:
     
     def configure_logging(self, name):
 
-        # Create a logger object
+            # Create a logger object
             logger = logging.getLogger(name)
             logger.setLevel(logging.DEBUG)  # Set the minimum level to handle
 
